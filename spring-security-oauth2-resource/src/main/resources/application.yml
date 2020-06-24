@@ -1,0 +1,10 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: spring-security-oauth2-resource
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/oauth2_resouce?useUnicode=true&characterEncoding=utf-8&useSSL=false
+    username: root
+    password: l19980207
